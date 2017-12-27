@@ -9,7 +9,11 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
 .wrapper {
   position: relative;
   min-height: 100%;
@@ -121,11 +125,6 @@ ul {
 .contact__information {
   float: right;
 }
-.clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
-}
 
 .contact__information {
   position: relative;
@@ -150,17 +149,38 @@ ul {
 }
 
 .sub-menu {
-  position: absolute;
-  display: none;
-  left: 15px;
-  top: 70px;
-  padding: 15px;
-  font-size: 14px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 3px 3px 5px 2px #e9e9e9;
+    display: none;
+   position: absolute;
+   padding: 14px;
+   background-color: #fff;
+   box-shadow: 3px 3px 5px 2px #e9e9e9;
+   top: 67px;
+   left: 15px;
+   z-index: 10;
+   font-size: 14px;
+   border-radius: 5px;
 }
-
+.sub-menu:before {
+   content: "";
+   position: absolute;
+   display: block;
+   right: 0;
+   left: 0;
+   top: -15px;
+   height: 15px;
+}
+.sub-menu::after {
+  content: "";
+   display: block;
+   position: absolute;
+   width: 0;
+   height: 0;
+   top: -10px;
+   left: 125px;
+   border-right: 10px solid transparent;
+   border-left: 10px solid transparent;
+   border-bottom: 10px solid #ffffff;
+}
 .contact__information--sked:hover .sub-menu {
   display: block;
 }
@@ -179,4 +199,40 @@ ul {
 
 .banner__img {
   text-align: center;
+}
+.features {
+  width: 100%;
+  background: #131415;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  color: #ffffff;
+}
+.features__title {
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  font-size: 49px;
+  letter-spacing: 2px;
+}
+.features__page {
+  margin-left: 100px;
+}
+.features__column {
+  float: left;
+  margin-left: 80px;
+}
+.features__column-title {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.features__column-text {
+  width: 204px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
 }
