@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
 </head>
 
 <body>
@@ -58,70 +59,60 @@
 
           <h2 class="features__title">особенности</h2>
           <ul class="features__page clearfix">
-            <li class="features__column">
-              <div class="features__column--icon">
-                <img src="img/flower.png" alt="цветок">
-              </div>
-              <b class="features__column--title">уникальность</b>
-              <p class="features__column--text">Мы делаем все,<br> для вашего комфорта</p>
-              <ul class="features__column--list">
-                <li class="features__column--row-list">Питание включено</li>
-                <li class="features__column--row-list">Багаж(5кг)</li>
-                <li class="features__column--row-list">Душ/баня</li>
+            <li class="features__column  features__column--flower">
+              <b class="features__column-title">уникальность</b>
+              <p class="features__column-text">Мы делаем все,<br> для вашего комфорта</p>
+              <ul class="features__column-list">
+                <li class="features__column-row-list">Питание включено</li>
+                <li class="features__column-row-list">Багаж(5кг)</li>
+                <li class="features__column-row-list">Душ/баня</li>
               </ul>
             </li>
-            <li class="features__column">
-              <div class="features__column--icon">
-                <img src="img/mark-as-favorite-star.png" alt="звезда">
-              </div>
-              <b class="features__column--title">премиум-класс</b>
-              <p class="features__column--text">Наш зал оборудован<br> тренажерами А-класса</p>
-              <ul class="features__column--list">
-                <li class="features__column--row-list">Качество</li>
-                <li class="features__column--row-list">Продуктивность</li>
-                <li class="features__column--row-list">Результат</li>
+            <li class="features__column  features__column--star">
+              <b class="features__column-title">премиум-класс</b>
+              <p class="features__column-text">Наш зал оборудован тренажерами А-класса</p>
+              <ul class="features__column-list">
+                <li class="features__column-row-list">Качество</li>
+                <li class="features__column-row-list">Продуктивность</li>
+                <li class="features__column-row-list">Результат</li>
               </ul>
             </li>
-            <li class="features__column">
-              <div class="features__column--icon">
-                <img src="img/painter-palette.png" alt="палитра">
-              </div>
-              <b class="features__column--title">личный тренер</b>
-              <p class="features__column--text">Тренер сделает все<br> для вашего результата</p>
-              <ul class="features__column--list">
-                <li class="features__column--row-list">Программа</li>
-                <li class="features__column--row-list">Питание</li>
-                <li class="features__column--row-list">План тренеровок</li>
+            <li class="features__column features__column--palette">
+              <b class="features__column-title">личный тренер</b>
+              <p class="features__column-text">Тренер сделает все для вашего результата</p>
+              <ul class="features__column-list">
+                <li class="features__column-row-list">Программа</li>
+                <li class="features__column-row-list">Питание</li>
+                <li class="features__column-row-list">План тренеровок</li>
               </ul>
             </li>
           </ul>
         </div>
       </section>
 
-
       <section class="news">
-        <div class="container">
-          <h2 class="news__title">последние новости</h2>
-          <div class="news-page">
-            <div class="news-page__parh">
+          <div class="container">
+            <h2 class="news-title">последние новости</h2>
+            <div class="news-page clearfix">
+              <div class="news-page__parh">
               <ul class="reviews">
-                <li class="reviews__element">
-                  <div class="reviews-border">
+                <li class="reviews-unit">
+                  <div class="reviews-border reviews-border--long clearfix">
                     <div class="reviews-avatar">
-                      <img src="img/Layer 6.jpg" alt="хаос">
+                      <img src="img/chaos.jpg" alt="хаос">
                     </div>
                     <div class="reviews-page">
                       <div class="reviews-date">12.10.2016</div>
                       <div class="reviews-title">Похудение с помощью бодибилдинга</div>
-                      <div class="reviews-text reviews-text_item">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
+                      <div class="reviews-text reviews-text--item">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
                       </div>
                     </div>
                   </div>
                 </li>
-                <li class="reviews__element">
-                  <div class="reviews-border">
+                <li class="reviews-unit reviews-unit__frog">
+                  <div class="reviews-border clearfix">
                     <div class="reviews-avatar">
-                      <img src="img/Layer 7.jpg" alt="файер">
+                      <img src="img/firewall.jpg" alt="файер">
                     </div>
                     <div class="reviews-page">
                       <div class="reviews-date">01.02.2016</div>
@@ -131,10 +122,10 @@
                     </div>
                   </div>
                 </li>
-                <li class="reviews__element">
-                  <div class="reviews-border reviews-border_last">
+                <li class="reviews-unit">
+                  <div class="reviews-border reviews-border--last clearfix">
                     <div class="reviews-avatar">
-                      <img class="range" src="img/Layer 9.jpg" alt="ноутбук">
+                      <img class="range" src="img/laptop.jpg" alt="ноутбук">
                     </div>
                     <div class="reviews-page">
                       <div class="reviews-date">22.12.2015</div>
@@ -143,14 +134,14 @@
                         монитора!
                       </div>
                     </div>
-                  </div>
+                    </div>
                 </li>
               </ul>
               <div class="switch">
                 <p>Страница 1 из 7</p>
                 <div class="switch-wrap">
-                  <a class="switch-wrap__link--front" href=""></a>
                   <ul class="switch-list">
+                    <li><a class="switch-wrap__link-front" href=""></a></li>
                     <li><a class="switch-wrap__first" href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
@@ -158,51 +149,56 @@
                     <li><a href="#">5</a></li>
                     <li><a href="#">6</a></li>
                     <li><a href="#">7</a></li>
+                    <li><a class="switch-wrap__link-back" href=""></a></li>
                   </ul>
-                  <a class="switch-wrap__link--back" href=""></a>
                 </div>
               </div>
-            </div>
-            <aside class="top-news">
-              <p>топ новостей <span class="hue">за сентябрь</span></p>
-              <ul>
-                <li>
-                  <a href="#">
-                 <img src="img/Rectangle 2.jpg" width="160" height="121" alt="атлет">
-              </a>
-                </li>
-                <li>
-                  <a href="#">
-                 <img src="img/Rectangle 1.jpg" width="160" height="160" alt="натюрморт">
-              </a>
-                </li>
-                <li>
-                  <a href="#">
-               <img src="img/Rectangle.jpg" width="160" height="160" alt="гантели">
-             </a>
-                </li>
-              </ul>
-            </aside>
-          </div>
-      </section>
-      </div>
+              </div>
+              <aside class="top-news">
+               <p>топ новостей <span class="hue">за сентябрь</span></p>
+               <ul>
+                 <li>
+                   <a href="#">
+                     <img src="img/rectangle2.jpg" width="160" height="121" alt="атлет">
+                    </a>
+                 </li>
+                 <li>
+                   <a href="#">
+                    <img src="img/rectangle1.jpg" width="160" height="160" alt="натюрморт">
+                  </a>
+                 </li>
+                 <li>
+                   <a href="#">
+                    <img src="img/recwwwtangle.jpg" width="160" height="160" alt="гантели">
+                   </a>
+                 </li>
+               </ul>
+             </aside>
+
+           </div>
+           </div>
+       </section>
+
+
+
     </main>
   </div>
+
   <footer class="footer-page">
     <div class="container">
-      <section class="copyrighted">
+      <section class="copyrighted clearfix">
         <div class="copyrighted-page">Сделано с любовью и старанием на курсе "HTML &plus; CSS" в
           <a class="copyrighted-page__link" href="https://loftschool.com/course/web-beginner">Loftschool</a>. Автор работы:<span class="author">Бутенко Сергей</span>
         </div>
         <div class="logo">
           <a class="menu-logo" href="#">
           <img src="img/afrodita.png" width="160" height="18" alt="логотип афродиты">
-       </a>
+         </a>
         </div>
         <div class="social">
           <b class="social__tagline">Наши социальные сети</b>
           <ul class="social-page">
-            <li><a class="social__networks" href="#vk"><span class="visually-hidden">VK</span>
+            <li><a class="social__networks social__networks--vk" href="#vk"><span class="visually-hidden">VK</span>
             <img src="img/vk.png" alt="в контакте">
           </a></li>
             <li><a class="social__networks" href="#facebook"><span class="visually-hidden">Facebook</span>
