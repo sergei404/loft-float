@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/header.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/comments.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,14 +48,14 @@
     <main class="main-content">
         <div class="container">
           <ul class="main-content__navigation">
-            <li class="main-content__navigation--line"><a class="main-content__navigation--link main-content__navigation--link-home" href="">Главная</a></li>
-            <li class="main-content__navigation--line"><a class="main-content__navigation--link" href="">Отзывы</a></li>
+            <li class="main-content__navigation-line"><a class="main-content__navigation-link main-content__navigation-link--home" href="">Главная</a></li>
+            <li class="main-content__navigation-line"><a class="main-content__navigation-link" href="">Отзывы</a></li>
           </ul>
           <section class="recall">
-          <h2 class="recall__title">отзывы</h2>
-          <div class="recall__parh">
+          <h2 class="recall-title">отзывы</h2>
+          <div class="recall-parh">
             <ul class="reviews">
-              <li>
+              <li class="reviews-unit">
                 <div class="reviews-border">
                   <div class="reviews-avatar">
                     <img src="img/athlete.jpg" alt="атлет">
@@ -61,13 +63,13 @@
                   <div class="reviews-page">
                     <div class="reviews-date">12.10.2016</div>
                     <div class="reviews-author">Алексей Воронов</div>
-                    <div class="reviews-text reviews-text_item">Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного
+                    <div class="reviews-text reviews-text__item">Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного
                       заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает
                     </div>
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="reviews-unit">
                 <div class="reviews-border">
                   <div class="reviews-avatar">
                     <img src="img/athlete2.jpg" alt="девушка-атлет">
@@ -75,56 +77,57 @@
                   <div class="reviews-page">
                     <div class="reviews-date">01.02.2016</div>
                     <div class="reviews-author">Инна Смольная</div>
-                    <div class="reviews-text reviews-text_item">Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось
+                    <div class="reviews-text reviews-text__item">Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось
                       в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
                     </div>
                   </div>
                 </div>
               </li>
-              <li>
-                <div class="reviews-border ">
+              <li class="reviews-unit reviews-unit__indent">
+                <div class="reviews-border">
                   <div class="reviews-avatar">
-                    <img src="img/vector smart object.png" alt="афродита">
+                    <img src="img/smart-object.png" alt="афродита">
                   </div>
                   <div class="reviews-page">
                     <div class="reviews-date">22.12.2015</div>
                     <div class="reviews-author">Владимир Савельев</div>
-                    <div class="reviews-text reviews-text_item">Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                    <div class="reviews-text reviews-text__item">Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
                     </div>
                   </div>
                 </div>
               </li>
-              <li>
-                <div class="reviews-border reviews-border_last">
+              <li class="reviews-unit">
+                <div class="reviews-border reviews-border--last">
                   <div class="reviews-avatar">
                     <img src="img/athlete3.jpg" alt="еще девушка атлет">
                   </div>
                   <div class="reviews-page">
                     <div class="reviews-date">22.12.2015</div>
                     <div class="reviews-author">Ирина Савина</div>
-                    <div class="reviews-text reviews-text_item">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале
+                    <div class="reviews-text reviews-text__item">Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале
                       радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
                     </div>
                   </div>
                 </div>
               </li>
             </ul>
-            <div class="switch recall__switch">
-              <p>Страница 1 из 7</p>
-              <div class="switch-wrap">
-                <a class="switch-wrap__link--front" href=""></a>
-                <ul class="switch-list">
-                  <li><a class="switch-wrap__first" href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li><a href="#">6</a></li>
-                  <li><a href="#">7</a></li>
-                </ul>
-                <a class="switch-wrap__link--back" href=""></a>
-              </div>
+          </div>
+          <div class="switch">
+            <p>Страница 1 из 7</p>
+            <div class="switch-wrap">
+              <ul class="switch-list">
+                <li><a class="switch-wrap__link-front" href=""></a></li>
+                <li><a class="switch-wrap__first" href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a class="switch-wrap__link-back" href=""></a></li>
+              </ul>
             </div>
+          </div>
 
       </section>
         </div>
@@ -140,39 +143,40 @@
 
       <section class="form">
         <div class="container">
-          <div class="form__page">
-            <h3 class="form__page--title">Оставить отзыв</h3>
-            <form class="form__page--form" action="/echo" method="post">
-              <div class="form__page--equalizer">
-                <div class="form__page--half-width">
-                  <label class="form__page--signature" for="name">Ваше имя</label>
-                  <input class="form__page--field" type="text" name="name" id="name" placeholder="Андрей">
+          <div class="form-page">
+            <h3 class="form-page__title">Оставить отзыв</h3>
+            <form class="form-page__form" action="/echo" method="post">
+              <div class="form-page__equalizer">
+                <div class="form-page__half-width">
+                  <label class="form-page__signature" for="name">Ваше имя</label>
+                  <input class="form-page__field" type="text" name="name" id="name" placeholder="Андрей">
                 </div>
-                <div class="form__page--half-width">
-                  <label class="form__page--signature" for="email">Ссылка на профиль в VK</label>
-                  <input class="form__page--field" type="email" name="email" id="email" placeholder="vk.com/example">
+                <div class="form-page__half-width">
+                  <label class="form-page__signature" for="email">Ссылка на профиль в VK</label>
+                  <input class="form-page__field" type="email" name="email" id="email" placeholder="vk.com/example">
                 </div>
               </div>
-              <div class="form__page--review-text">
-                <label class="form__page--signature" for="letter">Текст отзыва</label>
-                <textarea class="form__page--multiline-field" name="review" id="letter" placeholder="Мне понравились" rows="5"></textarea>
+              <div class="form-page__review-text">
+                <label class="form-page__signature" for="letter">Текст отзыва</label>
+                <textarea class="form-page__multiline-field" name="review" id="letter" placeholder="Мне понравились"></textarea>
               </div>
-              <div class="form__page--radio">
+              <div class="form-page__radio">
                 <p>Отображать фото в отзыве?</p>
-                <div class="form__page--radio-wrap">
-                  <div class="form__page--radio-sheath">
-                <label class="form__page--radio-on">
-                  <div class="form__page--icon-on"></div>
-                  <input type="radio" name="question-one" value="да" checked>да
-                  </label>
-                <label class="form__page--radio-off">
-                  <div class="form__page--icon-off"></div>
-                  <input type="radio" name="question-one" value="нет">нет
-                  </label>
+                <div class="form-page__radio-wrap">
+                  <div class="form-page__radio-sheath">
+                    <label class="form-page__radio-on">
+                     <input class="form-page__icon-on" type="radio" name="question" value="да" checked>
+                     <span class="form-page__checked"></span>
+                     <span class="form-page__text">да</span>
+                     </label>
+                    <label class="form-page__radio-on">
+                      <input class="form-page__icon-on" type="radio" name="question" value="нет">
+                      <span class="form-page__checked"></span>
+                       <span class="form-page__text">нет</span>
+                      </label>
                   </div>
-
-              <button class="form__page--form-submit ">отправить</button>
-              </div>
+                  <button class="form-page__submit">отправить</button>
+                </div>
               </div>
             </form>
           </div>
@@ -183,35 +187,25 @@
     </main>
     </div>
 
-    <footer class="footer-page ">
-      <div class="container ">
-        <section class="copyrighted ">
-          <div class="copyrighted-page ">Сделано с любовью и старанием на курсе "HTML &plus; CSS" в
-            <a class="copyrighted-page__link " href="https://loftschool.com/course/web-beginner ">Loftschool</a>. Автор работы:<span class="author ">Бутенко Сергей</span>
+    <footer class="footer-page">
+      <div class="container">
+        <section class="copyrighted clearfix">
+          <div class="copyrighted-page">Сделано с любовью и старанием на курсе "HTML &plus; CSS" в
+            <a class="copyrighted-page__link" href="https://loftschool.com/course/web-beginner">Loftschool</a>. Автор работы:<span class="author">Бутенко Сергей</span>
           </div>
-          <div class="logo ">
-            <a class="menu-logo " href="# ">
-          <img src="img/afrodita.png " width="160 " height="18 " alt="логотип афродиты ">
-       </a>
+          <div class="logo">
+            <a class="menu-logo" href="#">
+            <img src="img/afrodita.png" width="160" height="18" alt="логотип афродиты">
+           </a>
           </div>
-          <div class="social ">
-            <b class="social__tagline ">Наши социальные сети</b>
-            <ul class="social-page ">
-              <li><a class="social__networks " href="#vk "><span class="visually-hidden ">VK</span>
-            <img src="img/vk.png " alt="в контакте ">
-          </a></li>
-              <li><a class="social__networks " href="#facebook "><span class="visually-hidden ">Facebook</span>
-            <img src="img/fb.png " alt="фейсбук ">
-          </a></li>
-              <li><a class="social__networks " href="#google "><span class="visually-hidden ">Google</span>
-            <img src="img/google.png " alt="гугл ">
-          </a></li>
-              <li><a class="social__networks " href="#twitter "><span class="visually-hidden ">Twitter</span>
-            <img src="img/twitter.png " alt="твитер ">
-          </a></li>
-              <li><a class="social__networks " href="#mail "><span class="visually-hidden ">Mail</span>
-            <img src="img/mail.png " alt="майл ">
-          </a></li>
+          <div class="social">
+            <b class="social__tagline">Наши социальные сети</b>
+            <ul class="social-page">
+              <li><a class="social__networks social__networks--vk" href="#vk"><span class="visually-hidden">VK</span></a></li>
+              <li><a class="social__networks social__networks--facebook" href="#facebook"><span class="visually-hidden">Facebook</span></a></li>
+              <li><a class="social__networks social__networks--google" href="#google"><span class="visually-hidden">Google</span></a></li>
+              <li><a class="social__networks social__networks--twitter" href="#twitter"><span class="visually-hidden">Twitter</span></a></li>
+              <li><a class="social__networks social__networks--mail" href="#mail"><span class="visually-hidden">Mail</span></a></li>
             </ul>
           </div>
       </div>
