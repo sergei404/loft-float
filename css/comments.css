@@ -128,10 +128,11 @@
 
 .form-page__radio-sheath {
   float: left;
-  width: 140px;
+  width: 150px;
 }
 .form-page__radio-on {
   display: inline-block;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -147,8 +148,8 @@
   content: "";
   display: table;
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 7px;
+  left: 7px;
   width: 8px;
   height: 8px;
   background: #f89513;
@@ -156,9 +157,10 @@
 }
 .form-page__checked {
   position: relative;
-  width: 16px;
-  height: 16px;
-  margin-right: 20px;
+  padding-right: 22px;
+  margin-right: 7px;
+  width: 14px;
+  height: 14px;
   background: #ffffff;
   border: 2px solid #cecece;
   border-radius: 50%;
