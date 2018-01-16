@@ -1,0 +1,123 @@
+.service {
+  width: 100%;
+}
+.service-title {
+  margin-left: 92px;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.service-list {
+  margin-right: 85px;
+  list-style: none;
+}
+.service-list__row {
+  float: right;
+  width: 250px;
+  min-height: 450px
+  margin-bottom: 40px;
+  margin-left: 65px;
+}
+.service-list__row--bottom {
+   min-height: 500px;
+}
+
+.service-list__row-block {
+  position: relative;
+  width: 250px;
+  min-height: 150px;
+  margin-bottom: 25px;
+  background-color: #48dd8f;
+}
+.service-list__row-title {
+  position: absolute;
+  top: 61px;
+  left: 48%;
+  transform: translateX(-52%);
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.service-list__row-title--wrap {
+  box-sizing: border-box;
+  width: 145px;
+}
+.service-list__row-img {
+  width: 250px;
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 3px;
+  filter: brightness(50%);
+}
+.service-list__row-fitness {
+  background-image: url("../img/sports.jpg");
+}
+.service-list__row-nutritionist {
+  background-image: url("../img/apple.jpg");
+}
+.service-list__row-yoga {
+  background-image: url("../img/yoga.jpg");
+}
+.service-list__row-loops {
+  background-image: url("../img/loops.jpg");
+}
+.service-list__row-crossfit {
+  background-image: url("../img/women.jpg");
+}
+.service-list__row-pool {
+  background-image: url("../img/swimming.jpg");
+}
+
+.service-list__row-allotted {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.service-list__row-text {
+  width: 255px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.service-list__row--bottom {
+  margin-bottom: 20px;
+}
+
+.partners {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.partners-title {
+  margin-left: 92px;
+  font-size: 50px;
+  margin-top: 38px;
+  text-transform: uppercase;
+}
+.partners-list {
+  display: block;
+  text-align: center;
+  margin-left: 95px;
+  list-style: none;
+}
+.partners-list__row {
+  float: left;
+  margin-bottom: 45px;
+  margin-right: 165px;
+}
+.partners-list__row--left {
+  margin-right: 0;
+}
+.partners__list--img {
+  filter: grayscale(100%) opacity(50%);
+  transition-duration: 1s;
+}
+.partners__list--img:hover {
+  filter: grayscale(0) opacity(100%);
+}

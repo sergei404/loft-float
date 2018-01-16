@@ -153,7 +153,8 @@ ul {
   border-bottom: 2px solid #f5f5f5;
 }
 
-.reviews-border--last {
+.recall .reviews-border--last {
+  padding-bottom: 20px;
   border-bottom: none;
 }
 .reviews-avatar {
@@ -164,8 +165,9 @@ ul {
   background: #cfd8dc;
   border-radius: 50%;
 }
+
 .reviews-page {
-  margin-left: 160px;
+  margin-left: 180px;
 }
 .reviews-date {
   font-size: 14px;
@@ -189,29 +191,23 @@ ul {
   line-height: 1.65;
 }
 
-.reviews-text--item {
+.recall__reviews-text {
    width: 700px;
 }
-.recall-switch,
+
 .switch {
   display: block;
   text-align: center;
-  padding-left: 105px;
+  margin-left: 115px;
 }
 
-.recall-switch {
-  margin-left: 260px;
 
-}
 .switch p,
 .recall-switch p {
   display: inline-block;
   font-size: 14px;
 }
-.recall-switch p {
-  letter-spacing: -.3px;
-  padding-left: 10px;
-}
+
 .switch-wrap {
   display: inline-block;
   width: 230px;
@@ -312,7 +308,7 @@ ul {
   content: "/";
   display: table;
   left: 3px;
-  top: 3px;
+  top: 1px;
 }
 
 .main-content__navigation-link--home {
